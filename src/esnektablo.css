@@ -1,0 +1,13 @@
+.sb-esnek-tablo .header {
+    border: 1px solid #666;
+}
+
+.sb-esnek-tablo .cell {
+    margin: 5px;
+}
+
+.sb-esnek-tablo .separator div {
+    position: absolute;
+    top: 1px;
+    display: block;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eklenti Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="TR"/>
+    <script type="text/javascript" src="../resources/jquery-2.1.0.js"></script>
+    <link rel="stylesheet" href="../src/esnektablo.css"/>
+    <script type="text/javascript" src="../src/esnektablo.js"></script>
+</head>
+<body>
+
+<div id="tba">
+
+</div>
+<div id="tba2">
+
+</div>
+
+<script>
+
+    $("#tba").esnekTablo(
+            {
+                "title": "Data : Json Array",
+                "dataRoot": "data",
+                "columns": [
+                    {
+                        "header": "ID",
+                        "width": 100,
+                        "dataIndex": "id"
+                    },
+                    {
+                        "header": "Country",
+                        "flex": 1,
+                        "dataIndex": "country"
+                    },
+                    {
+                        "header": "City",
+                        "flex": 1,
+                        "dataIndex": "city"
+                    },
+                    {
+                        "header": "Name",
+                        "flex": 1,
+                        "dataIndex": "name"
+                    }
+                ]
+            },
+            [
+                {
+                    "id": "2313212",
+                    "country": "Tayland",
+                    "city": "Tayland",
+                    "name": "Dong Nyguyen"
+                },
+                {
+                    "id": "231321342",
+                    "country": "Singapur",
+                    "city": "Kuala Lumpu",
+                    "name": "Dong Malaga"
+                },
+                {
+                    "id": "23132",
+                    "country": "Türkiye",
+                    "city": "Bingöl",
+                    "name": "Şeref Taytıs"
+                },
+                {
+                    "id": "231322",
+                    "country": "Bulgaristan",
+                    "city": "Sofya",
+                    "name": "Manu Algoritma"
+                },
+                {
+                    "id": "231322342",
+                    "country": "Yunanistan",
+                    "city": "Atina",
+                    "name": "Ajdar Anikos"
+                }
+            ]
+    );
+
+</script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+[
+    {
+        "ad":"Elma",
+        "renk":"Yeşil",
+        "kalori":"600"
+    },
+    {
+        "ad":"Kiraz",
+        "renk":"Kırmızı",
+        "kalori":"450"
+    },
+    {
+        "ad":"Salatalık",
+        "renk":"Yeşil",
+        "kalori":"26"
+    },
+    {
+        "ad":"Limon",
+        "renk":"Sarı",
+        "kalori":"125"
+    }
+]

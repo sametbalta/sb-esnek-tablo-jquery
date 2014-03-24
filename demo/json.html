@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Eklenti Demo</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Language" content="TR"/>
+    <script type="text/javascript" src="../resources/jquery-2.1.0.js"></script>
+    <link rel="stylesheet" href="../src/esnektablo.css"/>
+    <script type="text/javascript" src="../src/esnektablo.js"></script>
+</head>
+<body>
+
+<div id="tablo-3">
+
+</div>
+
+<script>
+
+    $("#tablo-3").esnekTablo({
+        "title": "Baslik",
+        "columns": [
+            {
+                "header": "Adı",
+                "flex": 1,
+                "dataIndex": "ad"
+            },
+            {
+                "header": "Rengi",
+                "flex": 2,
+                "dataIndex": "renk"
+            },
+            {
+                "header": "Kalorisi",
+                "flex": 2,
+                "dataIndex": "kalori"
+            }
+        ],
+        "dataModel": {
+            "dataType":"json",
+            "url":"../resources/data.json"
+        }
+    });
+
+</script>
+</body>
+</html>
