@@ -7,7 +7,7 @@
 $('#my-div').esnekTablo(settings, data);
 ```
 
-Note : When setting.dataModel is specified , "data" is not required. 
+Note : When "settings.dataModel" is specified , "data" is not required. 
 
 ## 2. Setting
 
